@@ -307,6 +307,7 @@ if __name__=="__main__":
     myapp.setWindowTitle('KRB<))DJ((>ONLINE RADIO STATIONS')
   
     myapp.setStyleSheet("background-color: royalblue; border: 3px solid blue; border: 2px solid springgreen;")
+    myapp.setFixedSize(298, 411)
     myapp.show()
     sys.exit(app.exec_())  
     openPlayList()
