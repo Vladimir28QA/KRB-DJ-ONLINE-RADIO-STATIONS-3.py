@@ -93,8 +93,13 @@ class MyWin(QtWidgets.QMainWindow):
     
   
     def openPlayList(self):
-        webbrowser.open("My radio online.txt")                      
-                          #using pickle
+                import subprocess as sp
+        programName = "notepad.exe"
+        # This is name for txt file"
+        fileName = "My radio online.txt"
+        #My radio online.txt"
+        sp.Popen([programName, fileName])                             
+                         
     def help(self):                 
         webbrowser.open("https://forum.lugasat.org.ua/viewtopic.php?t=965") 
         webbrowser.open (" https://www.aimp.ru/forum/index.php?topic=22023.6675")  
