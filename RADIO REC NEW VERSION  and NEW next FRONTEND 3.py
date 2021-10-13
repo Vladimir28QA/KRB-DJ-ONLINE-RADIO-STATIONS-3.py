@@ -93,10 +93,7 @@ class MyWin(QtWidgets.QMainWindow):
     
   
     def openPlayList(self):
-        root.playListFileI = filedialog.askopenfilename(initialdir = "/",title = "Select your radio music ",filetypes=(("Python File",".py"),("My radio online.txt",".txt")))
-        input = open(root.playListFileI,'rb')
-        root.playlist = pickle.load(input)
-        input.close()                       
+        webbrowser.open("My radio online.txt")                      
                           #using pickle
     def help(self):                 
         webbrowser.open("https://forum.lugasat.org.ua/viewtopic.php?t=965") 
