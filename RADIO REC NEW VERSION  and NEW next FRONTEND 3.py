@@ -297,7 +297,7 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow","MainWindow"))
         self.pushButton.setText(_translate("MainWindow","PLAY\n►\nRadio"))
         self.pushButton_2.setText(_translate("MainWindow","STOP\n⬛\nRadio"))  
-        self.pushButton_3.setText(_translate("MainWindow","🔎 RADIO\n Stream")) 
+        self.pushButton_3.setText(_translate("MainWindow","🔎  RADIO\n Stream")) 
         self.pushButton_5.setText(_translate("MainWindow","OPEN TXT\nList  📂")) 
 
      
