@@ -294,11 +294,11 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         
        
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.pushButton.setText(_translate("MainWindow", "PLAY\nRadio"))
-        self.pushButton_2.setText(_translate("MainWindow", "STOP\nRadio"))  
-        self.pushButton_3.setText(_translate("MainWindow","RADIO\nStations")) 
-        self.pushButton_5.setText(_translate("MainWindow", " OPEN TXT\nList")) 
+        MainWindow.setWindowTitle(_translate("MainWindow","MainWindow"))
+        self.pushButton.setText(_translate("MainWindow","PLAY\n►\nRadio"))
+        self.pushButton_2.setText(_translate("MainWindow","STOP\n⬛\nRadio"))  
+        self.pushButton_3.setText(_translate("MainWindow","🔎 RADIO\n Stream")) 
+        self.pushButton_5.setText(_translate("MainWindow","OPEN TXT\nList 📂")) 
 
      
 if __name__=="__main__":
