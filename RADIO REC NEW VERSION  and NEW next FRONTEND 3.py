@@ -93,7 +93,7 @@ class MyWin(QtWidgets.QMainWindow):
     
   
     def openPlayList(self):
-                import subprocess as sp
+        import subprocess as sp
         programName = "notepad.exe"
         # This is name for txt file"
         fileName = "My radio online.txt"
