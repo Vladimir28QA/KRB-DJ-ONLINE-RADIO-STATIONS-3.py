@@ -98,7 +98,14 @@ class MyWin(QtWidgets.QMainWindow):
         # This is name for txt file"
         fileName = "My radio online.txt"
         #My radio online.txt"
-        sp.Popen([programName, fileName])                             
+        sp.Popen([programName, fileName])    
+        
+        #----------------------------------------
+        #import subprocess as sp
+        programName = "sndvol.exe"
+        fileName = "sndvol.exe"          
+        sp.Popen([programName, fileName]) 
+        #----------------------------------------
                          
     def help(self):                 
         webbrowser.open("https://forum.lugasat.org.ua/viewtopic.php?t=965") 
