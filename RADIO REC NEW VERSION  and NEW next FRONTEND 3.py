@@ -95,7 +95,8 @@ class MyWin(QtWidgets.QMainWindow):
     def openPlayList(self):
         import subprocess as sp
         programName = "notepad.exe"
-        # This is name for txt file"
+        #This is name for txt file"
+        #This is radio Stream for your ----"My radio online.txt"----file for test   1.Kiss radio Los-Angeles-usa.|http://stream.revma.ihrhls.com/zc185
         fileName = "My radio online.txt"
         #My radio online.txt"
         sp.Popen([programName, fileName])    
