@@ -110,7 +110,7 @@ class MyWin(QtWidgets.QMainWindow):
                          
     def help(self):                 
         webbrowser.open("https://forum.lugasat.org.ua/viewtopic.php?t=965") 
-        webbrowser.open (" https://www.aimp.ru/forum/index.php?topic=22023.6675")  
+       
     
         
          
